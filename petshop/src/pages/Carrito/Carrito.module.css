@@ -1,0 +1,117 @@
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #3d2e26;
+}
+
+.contador {
+  background-color: #ddf0fb;
+  color: #2d6e90;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+  border: 1px solid #e8ddd6;
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.itemImg {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #f5ede7;
+  flex-shrink: 0;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemNombre {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #3d2e26;
+  margin-bottom: 0.2rem;
+}
+
+.itemCant {
+  font-size: 0.82rem;
+  color: #9e8f87;
+}
+
+.itemPrecio {
+  font-size: 0.82rem;
+  color: #9e8f87;
+  margin-top: 0.15rem;
+}
+
+.itemRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+
+.itemTotal {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #e87aab;
+}
+
+.vacio {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.vacio h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3d2e26;
+}
+
+.vacio p {
+  font-size: 0.9rem;
+  color: #9e8f87;
+}
+
+.productos {
+  background-color: #e87aab;
+  color: #fff;
+  padding: 0.65rem 1.75rem;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.productos:hover {
+  background-color: #d4609a;
+}

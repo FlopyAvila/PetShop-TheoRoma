@@ -1,0 +1,43 @@
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.miembro {
+  background-color: #fdf8f5;
+  border: 1px solid #e8ddd6;
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  min-width: 140px;
+  flex: 1 1 140px;
+  max-width: 180px;
+  transition: transform 0.2s;
+}
+
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #f5ede7;
+  border: 2px solid #e8ddd6;
+  margin-bottom: 0.6rem;
+}
+
+.miembro h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #3d2e26;
+  margin-bottom: 0.25rem;
+}
+
+.miembro h3 {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #b07a9e;
+}

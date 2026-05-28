@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Florencia Avila",
+        "puesto": "Desarrolladora principal",
+        "foto": "/images/flor.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Theo Avila",
+        "puesto": "QA",
+        "foto": "/images/Theo.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Roma Avila",
+        "puesto": "Diseñador UX/UI",
+        "foto": "/images/Roma.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Brisa Avila",
+        "puesto": "Analista",
+        "foto": "/images/Brisa.jpeg"
+    }
+]

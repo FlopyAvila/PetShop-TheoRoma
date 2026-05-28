@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Croquetas Premium Perro",
+    "categoria": "Alimentos",
+    "precio": 3200,
+    "stock": 15,
+    "imagen": "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=400&h=300&fit=crop",
+    "descripcion": "Alimento balanceado para perros adultos, rico en proteinas. Bolsa 3kg."
+  },
+  {
+    "id": 2,
+    "nombre": "Croquetas para Gato",
+    "categoria": "Alimentos",
+    "precio": 1950,
+    "stock": 20,
+    "imagen": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=300&fit=crop",
+    "descripcion": "Formula especial para gatos adultos con sabor a salmon. Bolsa 1.5kg."
+  },
+  {
+    "id": 3,
+    "nombre": "Collar con placa",
+    "categoria": "Accesorios",
+    "precio": 650,
+    "stock": 22,
+    "imagen": "https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=400&h=300&fit=crop",
+    "descripcion": "Collar de nylon ajustable con placa de identificacion incluida."
+  },
+  {
+    "id": 4,
+    "nombre": "Rascador con poste de sisal",
+    "categoria": "Juguetes",
+    "precio": 4800,
+    "stock": 5,
+    "imagen": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?w=400&h=300&fit=crop",
+    "descripcion": "Rascador alto con plataforma y poste de sisal natural. 60cm de altura."
+  }
+]

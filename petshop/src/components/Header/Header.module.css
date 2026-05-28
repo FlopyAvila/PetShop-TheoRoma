@@ -1,0 +1,52 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e8ddd6;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav ul {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav a {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6b5c52;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav a:hover {
+  background-color: #f5ede7;
+  color: #3d2e26;
+}
+
+.carrito a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+
+.carrito span {
+  background-color: #e87aab;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+}

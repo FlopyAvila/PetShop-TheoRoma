@@ -1,0 +1,97 @@
+.pagina {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.volver {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #9e8f87;
+  transition: color 0.2s;
+}
+
+.volver:hover {
+  color: #3d2e26;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background-color: #fff;
+  border: 1px solid #e8ddd6;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+@media (max-width: 620px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  background-color: #f5ede7;
+  display: block;
+}
+
+.info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.categoria {
+  display: inline-block;
+  background-color: #ddf0fb;
+  color: #2d6e90;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.nombre {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #3d2e26;
+  line-height: 1.2;
+}
+
+.precio {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #e87aab;
+}
+
+.descripcion {
+  font-size: 0.9rem;
+  color: #7a6f65;
+  line-height: 1.6;
+}
+
+.stock {
+  font-size: 0.82rem;
+  color: #9e8f87;
+}
+
+.stockOk {
+  color: #3a8a5c;
+  font-weight: 700;
+}
+
+.cargando,
+.noEncontrado {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  color: #9e8f87;
+  font-size: 1rem;
+}
